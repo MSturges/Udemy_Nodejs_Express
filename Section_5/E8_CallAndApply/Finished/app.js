@@ -6,5 +6,5 @@ var obj = {
 }
 
 obj.greet();
-obj.greet.call({ name: 'Jane Doe'});
-obj.greet.apply({ name: 'Jane Doe'});
+obj.greet.call({ name: 'bob Doe'});
+obj.greet.apply({ name: 'max Doe'});
