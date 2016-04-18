@@ -1,0 +1,12 @@
+<!-- when this form is submitted, the input field's data will be packaed into an object and sent to the express route in the form of req.body -->
+<!-- req.body = {
+  name: 'whateverWasTypedInByTheUserIntoTheInputFieldNamed=Name',
+  hobby: 'whateverWasTypedInByTheUserIntoTheInputFieldNamed=Hobby'
+} -->
+<form action="/people/add" method="post">
+<input type="text" name="name" placeholder="Name">
+<br></br>
+<input type="text" name="hobby" placeholder="Hobby">
+<br></br>
+<input type="submit" value="Submit person">
+</form>
